@@ -1,0 +1,127 @@
+.row{
+background: #fccb90;
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1))
+}
+.row{
+    display: flex;
+}
+
+.col{
+    flex: 50%;
+    padding: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+textarea {
+    width: 70%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+    position: relative;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Center the text box */
+#text {
+    width: 550px;
+    resize: none;
+    height: 450px;
+}
+
+#table-label{
+    text-align: center;
+    position: relative;
+    font-size: x-large;
+    top: 0;
+    right: 0;
+    left: 30%;
+    bottom: 5px;
+}
+
+/* Style the table */
+#similar-articles-table {
+margin-top: 20px;
+margin: 25px 0;
+width: 80%;
+font-size: 0.9em;
+border-collapse: collapse;
+border: 1px solid #ddd;
+border-radius: 5px 5px 0 0;
+overflow: hidden;
+box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+
+#similar-articles-table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+#similar-articles-table th,
+#similar-articles-table td{
+    padding: 12px 15px;
+}
+
+#similar-articles-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+#similar-articles-table tbody tr:nth-of-type(even){
+    background-color: #f0eaea;
+}
+
+#similar-articles-table tbody tr:nth-of-type(odd){
+    background-color: #ffffff;
+}
+
+#similar-articles-table tbody tr:last-of-type {
+    border-bottom:2px solid #009879;
+}
