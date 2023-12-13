@@ -10,9 +10,9 @@ from flask import Flask, render_template, request, jsonify
 import pinecone
 import json
 
-pinecone_environment = "us-west4-gcp"
-pinecone_api = "8c5d315d-5722-47cf-94b6-71325e3a1c3f"
-index_name = "plagiarism-search"
+pinecone_environment = "pinecone-environment_name"
+pinecone_api = "your_API_key"
+index_name = "your_index_name"
 
 def initialize_pinecone():
     pinecone.init(api_key=pinecone_api, environment=pinecone_environment)
